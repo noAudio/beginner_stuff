@@ -1,9 +1,6 @@
 from datetime import date
+from exercises.fibonacci import fib
 
-year = date.today().year
-
-birth_year = input('What year were you born?')
-
-age = year - int(birth_year)
-
-print(f'Your age is {age}!')
+if __name__ == '__main__':
+    for number in fib(20):
+        print(number)
