@@ -6,6 +6,3 @@ def fib(number):
         temp = starting_number
         starting_number = previous_number
         previous_number += temp
-
-for x in fib(20):
-    print(x)
